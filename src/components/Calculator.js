@@ -16,30 +16,30 @@ class Calculator extends React.Component {
             <button type="button" className="btnWidth"> AC </button>
             <button type="button" className="btnWidth"> +/- </button>
             <button type="button" className="btnWidth"> % </button>
-            <button type="button" className="btnWidth"> ÷ </button>
+            <button type="button" className="btnWidth bgd-color2"> ÷ </button>
           </div>
           <div className="row2 row">
             <button type="button" className="btnWidth"> 7 </button>
             <button type="button" className="btnWidth"> 8 </button>
             <button type="button" className="btnWidth"> 9 </button>
-            <button type="button" className="btnWidth"> x </button>
+            <button type="button" className="btnWidth bgd-color2"> x </button>
           </div>
           <div className="row3 row">
             <button type="button" className="btnWidth"> 4 </button>
             <button type="button" className="btnWidth"> 5 </button>
-            <button type="button" className="btnWidth"> 6 </button>
-            <button type="button" className="btnWidth"> - </button>
+            <button type="button" className="btnWidth "> 6 </button>
+            <button type="button" className="btnWidth bgd-color2"> - </button>
           </div>
           <div className="row4 row">
             <button type="button" className="btnWidth"> 1 </button>
             <button type="button" className="btnWidth"> 2 </button>
             <button type="button" className="btnWidth"> 3 </button>
-            <button type="button" className="btnWidth"> + </button>
+            <button type="button" className="btnWidth bgd-color2"> + </button>
           </div>
           <div className="row5 row">
             <button type="button" className="btnWidth50"> 0 </button>
             <button type="button" className="btnWidth"> . </button>
-            <button type="button" className="btnWidth"> = </button>
+            <button type="button" className="btnWidth bgd-color2"> = </button>
           </div>
         </div>
       </div>
