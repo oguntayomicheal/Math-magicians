@@ -1,0 +1,36 @@
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.result {
+  height: 40px;
+  background-color: rgb(97, 97, 97);
+  color: white;
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: 40px;
+  padding: 10px;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+}
+
+.btnWidth {
+  width: 25%;
+  height: 40px;
+  color: black;
+}
+
+.btnWidth50 {
+  width: 50%;
+  height: 40px;
+  color: black;
+}
+
+.bgd-color2 {
+  background-color: #f5903f;
+}
