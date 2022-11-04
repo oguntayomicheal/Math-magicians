@@ -23,12 +23,14 @@
   width: 25%;
   height: 40px;
   color: black;
+  font-size: larger;
 }
 
 .btnWidth50 {
   width: 50%;
   height: 40px;
   color: black;
+  font-size: larger;
 }
 
 .bgd-color2 {
