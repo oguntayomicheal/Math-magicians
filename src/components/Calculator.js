@@ -1,21 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
-  }
+const Calculator = () => {
+  const [obj, setState] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
 
-  buttonClick = (buttonName, obj = this.state) => {
-    const result = calculate(obj, buttonName);
-    this.setState(result);
-  };
+  // buttonClick = (buttonName, obj = this.state) => {
+  //   const result = calculate(obj, buttonName);
+  //   this.setState(result);
+  // };
+
 
   render() {
     const { total, next, operation } = this.state;
@@ -65,5 +63,4 @@ class Calculator extends React.Component {
     );
   }
 }
-
 export default Calculator;
