@@ -1,0 +1,15 @@
+#Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  width: auto;
+}
+
+nav {
+  width: auto;
+  display: flex;
+  gap: 20px;
+}
