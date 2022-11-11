@@ -7,4 +7,4 @@ describe('Testing operate functionality', () => {
     expect(operate(6, 2, '÷')).toBe('3');
     expect(operate(10, 10, 'x')).toBe('100');
   });
-})
+});
