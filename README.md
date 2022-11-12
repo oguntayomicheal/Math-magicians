@@ -14,7 +14,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](https://incredible-creponne-1c94a4.netlify.app/qoutes)
+[Live Demo Link](https://incredible-creponne-1c94a4.netlify.app/)
 
 
 ## Getting Started
