@@ -12,9 +12,9 @@
 
 - React
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://incredible-creponne-1c94a4.netlify.app/qoutes)
 
 
 ## Getting Started
